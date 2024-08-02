@@ -110,8 +110,7 @@ def main():
             index = int(input("Select a task to delete (number): ")) - 1
             todo_list.delete_todo(index)
         elif choice == "4":
-            print("THIS WILL CLEAR ALL OF YOUR TODOS...\n Enter \"Y\" For Clearing \"N\" For going back :  ", end="")
-            option = input()
+            option = input("THIS WILL CLEAR ALL OF YOUR TODOS...\n Enter \"Y\" For Clearing \"N\" For going back :  ")
             if option == "Y" or option == "y":
                 todo_list.clear_all()
             elif option == "N" or option == "n":

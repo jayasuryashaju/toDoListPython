@@ -1,1 +1,2 @@
-poda patty,False
+Wash Bike,False
+Clean Kitchen,True
